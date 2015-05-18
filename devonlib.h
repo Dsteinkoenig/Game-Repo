@@ -1,7 +1,7 @@
 //Author:       Devon Steinkoenig
 //Title:        Devon's Library
 //File Name:    devonlib.h
-//Date Updated: 5/17/15
+//Date Updated: 5/18/15
 /*Description:  A library of super useful stuff*/
 
 #ifndef DEVONLIB_H
@@ -41,6 +41,13 @@ long myRand( const long min, const long max );
 //Post:        Returns length, excluding NULL char
 //////////////////////////////////////////////////////////////////////////////
 long cStringL( char cString[] );
+
+//////////////////////////////////////////////////////////////////////////////
+//Description: Returns the absolute value of a number
+//Pre:         −2,147,483,647<=num<=+2,147,483,647
+//Post:        Returns the absolute value of a number
+//////////////////////////////////////////////////////////////////////////////
+long myAbs( const long num );
 
 //////////////////////////////////////////////////////////////////////////////
 //Description: Swaps two data of type T

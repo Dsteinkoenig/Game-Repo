@@ -1,7 +1,7 @@
 //Author:       Devon Steinkoenig
 //Title:        Devon's Library
 //File Name:    devonlib.cpp
-//Date Updated: 5/17/15
+//Date Updated: 5/18/15
 /*Description:  A library of super useful stuff*/
 
 #include "devonlib.h"
@@ -78,3 +78,15 @@ long cStringL( char cString[] )
   
   return count;
 }  //cStringL()
+
+long myAbs( const long num )
+{
+  long val = 0;
+  
+  if ( num >= 0 )
+    val = num;
+  else
+    val = -num;
+  
+  return val;
+}  //myAbs()
